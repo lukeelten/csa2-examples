@@ -21,7 +21,13 @@ if (!empty($username) && !empty($password)) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Example - SQL Injection</title>
+    <meta charset="UTF-8">
+    <title>CSA2 Example - SQL Injection</title>
+    <style type="text/css">
+        input, body, p {
+            font-size: 32px;
+        }
+    </style>
 </head>
 <body>
 

