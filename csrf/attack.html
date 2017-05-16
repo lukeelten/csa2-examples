@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSA2Example - SQL Injection</title>
+    <style type="text/css">
+        input, body, p, button, a {
+            font-size: 32px;
+            font-family: sans-serif;
+        }
+
+        button.link {
+            background: none;
+            color: blue;
+            text-decoration: underline;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<a href="https://google.de" title="Go to Google">This is a safe link</a>
+<hr>
+<form method="post" action="http://localhost:8080/change.php">
+    <input type="hidden" name="newusername" value="hacked">
+    <input type="hidden" name="agb" value="1">
+    <button class="link" type="submit">This a an unsafe link</button>
+</form>
+
+</body>
+</html>
