@@ -46,6 +46,7 @@ if (!empty($newusername)) {
     <h1>
         Your username has been changed to: <?= $newusername ?>
     </h1>
+    <a href="login.php">Go back</a>
 
     </body>
 </html>
