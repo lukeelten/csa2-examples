@@ -1,6 +1,10 @@
 !.gitkeep
 
 .idea
+.codelite
+*.project
+*.workspace
+*/test
 
 # Created by https://www.gitignore.io/api/c,c++,linux,phpstorm,codeblocks
 
