@@ -11,7 +11,7 @@ int main(int argc, char **argv)
     
     strcpy(password, argv[1]);
     
-    if (strcmp(password, "secretPassword") == 0) {
+    if (strcmp(password, "password") == 0) {
         checked = 1;
         printf("You password is correct. \n");
     } else {
